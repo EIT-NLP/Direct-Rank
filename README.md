@@ -10,3 +10,5 @@ Large Language Models (LLMs) are increasingly employed in Information Retrieval 
 
 In this study, we conduct a systematic analysis of reasoning in reranking across pointwise and listwise paradigms, under both supervised and reinforcement learning. Surprisingly, we find that reasoning-augmented rerankers consistently underperform their direct, non-reasoning counterparts—despite much higher inference cost. 
 
+---
+
