@@ -1,15 +1,9 @@
 # Rethinking Reasoning in Document Ranking: Why Chain-of-Thought Falls Short
-<p align="center">
-  <a href="https://arxiv.org/abs/2510.08985">
-    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  </a>
-  <a href="#code-coming-soon">
-    <img src="https://img.shields.io/badge/Code-Coming%20Soon-orange.svg" alt="Code Coming Soon">
-  </a>
-</p>
+<div align="center">
+  <a href="https://arxiv.org/abs/2510.08985"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+  <a href="#code-coming-soon"><img src="https://img.shields.io/badge/Code-Coming%20Soon-orange.svg"></a>
+</div>
 ## Introduction
 
 Large Language Models (LLMs) are increasingly employed in Information Retrieval (IR) pipelines, especially for reranking, where rerankers refine initial retrieval results. Inspired by the success of large reasoning models (LRMs), recent work has begun adding explicit chain-of-thought (CoT) reasoning into rerankers, hoping that step-by-step reasoning might yield better judgments. Yet, whether reasoning truly helps ranking remains unclear.
