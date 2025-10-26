@@ -4,7 +4,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <a href="#code-coming-soon"><img src="https://img.shields.io/badge/Code-Coming%20Soon-orange.svg"></a>
 </div>
-## Introduction
+## 📖 Introduction
 
 Large Language Models (LLMs) are increasingly employed in Information Retrieval (IR) pipelines, especially for reranking, where rerankers refine initial retrieval results. Inspired by the success of large reasoning models (LRMs), recent work has begun adding explicit chain-of-thought (CoT) reasoning into rerankers, hoping that step-by-step reasoning might yield better judgments. Yet, whether reasoning truly helps ranking remains unclear.
 
@@ -15,18 +15,18 @@ In this study, we conduct a systematic analysis of reasoning in reranking across
   <p><em> Figure 1: Illustration of Pointwise and Listwise Reranking (Direct vs. Reasoning </em></p>
 </div>
 
-## Key Findings
+## 🔑 Key Findings
 - **Reasoning Failure**: Direct-output rerankers consistently outperform reasoning-augmented variants, despite the latter’s substantially higher inference cost
 - **Calibration Breakdown**: In pointwise rerankers, reasoning improves local relevance prediction but disrupts score calibration, creating a bias toward false positives and degrading overall ranking performance.
 - **Generalization Collapse**: In listwise rerankers, reasoning enhances in-domain fit but increases prediction variance and harms out-of-domain generalization—even when rationales are shortened via GRPO.
 
-## TODO List
+## ✅ TODO List
 - [ ] Release training & evaluation code
 - [ ] Release open-source models
 - [ ] Provide documentation & usage examples 
 
 
-## Citation
+## 📚 Citation
 ```bibtex
 @misc{lu2025rethinkingreasoningdocumentranking,
       title={Rethinking Reasoning in Document Ranking: Why Chain-of-Thought Falls Short}, 
