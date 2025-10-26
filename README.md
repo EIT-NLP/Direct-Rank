@@ -1,8 +1,14 @@
 # Rethinking Reasoning in Document Ranking: Why Chain-of-Thought Falls Short
 <p align="center">
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.08985)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](#code-coming-soon)
+  <a href="https://arxiv.org/abs/2510.08985">
+    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  </a>
+  <a href="#code-coming-soon">
+    <img src="https://img.shields.io/badge/Code-Coming%20Soon-orange.svg" alt="Code Coming Soon">
+  </a>
 </p>
 ## Introduction
 
