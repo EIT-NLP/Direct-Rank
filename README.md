@@ -15,6 +15,11 @@ In this study, we conduct a systematic analysis of reasoning in reranking across
   <p><em> Figure 1: Illustration of Pointwise and Listwise Reranking (Direct vs. Reasoning </em></p>
 </div>
 
+## Key Findings
+- **Reasoning Failure**: Direct-output rerankers consistently outperform reasoning-augmented variants, despite the latter’s substantially higher inference cost
+- **Calibration Breakdown**: In pointwise rerankers, reasoning improves local relevance prediction but disrupts score calibration, creating a bias toward false positives and degrading overall ranking performance.
+- **Generalization Collapse**: In listwise rerankers, reasoning enhances in-domain fit but increases prediction variance and harms out-of-domain generalization—even when rationales are shortened via GRPO.
+
 ## TODO List
 - [ ] Release training & evaluation code
 - [ ] Release open-source models
